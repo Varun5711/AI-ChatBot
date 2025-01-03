@@ -114,8 +114,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For questions or feedback, please reach out:
 - **Email**: varunhotani@gmail.com
-- **GitHub**: [Your GitHub Profile](https://github.com/Varun5711)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/varun-hotani-51b046300/)
+- **GitHub**: [Varun5711](https://github.com/Varun5711)
+- **LinkedIn**: [Varun Hotani](https://www.linkedin.com/in/varun-hotani-51b046300/)
 
 ---
 
