@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="assets/ai.png" alt="logo" class="logo">
+            </div>
+            <!-- New div for the typing effect text -->
+            <div id="typed-output" class="typed-output"></div>
+
+            <ul class="navbar-links" id="navbar-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="support.html" target="_blank">Support</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="chat-container">
+        <div class="ai-chat-box">
+            <img src="assets/ai.png" alt="" id="aiImage" width="10%">
+            <div class="ai-chat-area">
+                Hello ! How Can I Help you Today?
+            </div>
+        </div>
+    </div>
+
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Message Quantum">
+        <button id="image"><img src="assets/img.svg" alt="" width="50px">
+            <input type="file" accept="images/*" hidden></button>
+        <button id="submit"><img src="assets/submit.svg" width="50px" alt=""></button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
